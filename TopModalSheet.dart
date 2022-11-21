@@ -40,7 +40,7 @@ class TopModalSheet1 extends StatelessWidget {
       pageBuilder: (context, _, __) {
         return Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
+          children:[
             Container(
               height: 200,
               width: MediaQuery.of(context).size.width,
